@@ -88,10 +88,12 @@ namespace HashTable
             }
         }
     }
+
     public struct keyValues<K, V>
     {
         public K key { get; set; }
         public V Value { get; set; }
 
     }
+
 }
